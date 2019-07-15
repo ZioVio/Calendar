@@ -1,0 +1,15 @@
+{
+  "name": "calendar",
+  "version": "0.0.1",
+  "description": "A simple calendar which returns a two-dim array with month dates. Currently not working",
+  "main": "calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calendar",
+    "date"
+  ],
+  "author": "ZioVio",
+  "license": "ISC"
+}
