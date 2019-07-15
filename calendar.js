@@ -65,7 +65,7 @@ function alignDay(dayToStartWeek, day) {
     return day
 }
 //@todo comments
-function getMonth(year, month, dayToStartWeek) {
+function getMonth(year, month, dayToStartWeek = 0) {
     var weeks = []
     var date = new Date(year, month)
     var first_day = date.getDay()

@@ -1,7 +1,7 @@
 {
-  "name": "calendar",
-  "version": "0.0.1",
-  "description": "A simple calendar which returns a two-dim array with month dates. Currently not working",
+  "name": "small_calendar_js",
+  "version": "0.0.2",
+  "description": "A simple calendar which returns a two-dim array with month dates",
   "main": "calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
