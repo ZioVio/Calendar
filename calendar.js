@@ -65,6 +65,7 @@ function alignDay(dayToStartWeek, day) {
     return day
 }
 //@todo comments
+// @todo replace undefined with 0
 function getMonth(year, month, dayToStartWeek = 0) {
     var weeks = []
     var date = new Date(year, month)
@@ -74,7 +75,7 @@ function getMonth(year, month, dayToStartWeek = 0) {
     var week_in_month = true
     while (week_in_month) {
         week_in_month = false
-        var week = new Array(7)
+        var week = new Array(7).fill(0)
         for (;iter_day < 7; iter_day++) {
             date.setDate(day_counter)
             if (date.getMonth() == month && date.getFullYear() == year) {
